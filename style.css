@@ -1,0 +1,106 @@
+/* A very basic CSS styling just to make sure the interface is good for js*/
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+input {
+  padding: 12px;
+  width: 220px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.success {
+  color: #22c55e;
+}
+
+.high {
+  color: #f97316;
+}
+
+.low {
+  color: #38bdf8;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.container {
+  transition: 0.3s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.3s;
+  border: 2px solid #ef4444;
+}
