@@ -35,3 +35,16 @@ A simple and interactive number guessing game built using JavaScript.
 ---
 
 💡 Built as part of my JavaScript learning journey 🚀
+
+## 📚 What I Learned
+
+This project helped me understand core JavaScript concepts and how they interact with the browser:
+
+- Generating random numbers and building game logic
+- Manipulating the DOM to update content dynamically
+- Handling user input and validating data
+- Writing conditional logic for interactive behavior
+- Using event listeners to respond to user actions
+- Dynamically applying CSS classes for visual feedback
+- Creating simple UI animations using CSS
+- Managing application state (attempt count, game flow)
