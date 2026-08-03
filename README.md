@@ -3,7 +3,7 @@
 A simple and interactive number guessing game built using JavaScript.
 
 ## 🚀 Live Demo
-👉 https://sahilsingh-js.github.io/number-guess-game/
+👉 https://sahilsinghhhhh.github.io/number-guess-game/
 
 ## 📸 Preview
 
